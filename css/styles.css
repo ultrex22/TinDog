@@ -9,6 +9,8 @@ h2 {
     line-height: 1.5;
 }
 
+/* title section  */
+
 #title {
     background-color: #ff4c68;
     color: white;
@@ -27,6 +29,26 @@ h2 {
 .container-fluid {
     padding: 7% 15%;
 }
+
+#iphone-mockup {
+    transform: rotate(23deg);
+    width: 60%;
+    position: absolute;
+    left: 110px;
+}
+
+@media (max-width: 1028px) {
+    #iphone-mockup {
+        transform: rotate(0deg);
+        position: static;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+/* nav bar section  */
 
 .navbar {
     padding: 1.1rem 0 4.7rem 0;
@@ -47,16 +69,8 @@ h2 {
     font-weight: 400;
 }
 
-#iphone-mockup {
-    transform: rotate(23deg);
-    width: 60%;
-    position: absolute;
-    left: 110px;
-}
+/* features section  */
 
-#title {
-    /* padding: 4% 0; */
-}
 #features {
     padding: 130px 0;
     background-color: white;
