@@ -37,14 +37,21 @@ h2 {
     left: 110px;
 }
 
-@media (max-width: 1028px) {
+@media (max-width: 900px) {
     #iphone-mockup {
         transform: rotate(0deg);
         position: static;
+        padding-top: 5%;
     }
 
     #title {
         text-align: center;
+    }
+
+    #main-title {
+        font-weight: 700;
+        font-size: 4rem;
+        line-height: 1.3;
     }
 }
 
